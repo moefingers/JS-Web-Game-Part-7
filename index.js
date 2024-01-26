@@ -17,6 +17,7 @@ async function moveNPC(){
     await npc.walkWest(2700)
     await npc.walkNorth(400)
     console.log("repeating")
+    move(npc.element).to(50, 300)
     moveNPC()
 }
 moveNPC()
