@@ -16,9 +16,17 @@ async function moveNPC(){
     await npc.walkSouth(1500)
     await npc.walkWest(2700)
     await npc.walkNorth(400)
+    console.log("repeating")
     moveNPC()
 }
 moveNPC()
+
+// Totals
+// North: 1800
+// South: 1800
+
+// East: 2700
+// West: 2700
 
 // Create the inventory
 const inventory = newInventory()
